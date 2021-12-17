@@ -1,126 +1,126 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1237; Version 2009; 64bit' Language: 'zh' Physical Memory: 16332 MB
+Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'zh' Physical Memory: 16267 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\unity\2020.3.18f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/unity/Knight Soul/KnightSoul/KnightSoul
+C:/Users/user/Documents/GitHub/KnightSoul/KnightSoul
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58031
-Successfully changed project path to: D:/unity/Knight Soul/KnightSoul/KnightSoul
-D:/unity/Knight Soul/KnightSoul/KnightSoul
+6272
+Successfully changed project path to: C:/Users/user/Documents/GitHub/KnightSoul/KnightSoul
+C:/Users/user/Documents/GitHub/KnightSoul/KnightSoul
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.18f1 (a7d1c678663c)
-[Subsystems] Discovering subsystems at path D:/unity/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/unity/Knight Soul/KnightSoul/KnightSoul/Assets
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/KnightSoul/KnightSoul/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
     Vendor:   
-    VRAM:     5980 MB
-    Driver:   30.0.14.9613
+    VRAM:     2988 MB
+    Driver:   30.0.14.7196
 Initialize mono
-Mono path[0] = 'D:/unity/2020.3.18f1/Editor/Data/Managed'
-Mono path[1] = 'D:/unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/unity/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/unity/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001217 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001658 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 43.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.256 seconds
+- Completed reload, in  1.579 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1256ms)
+	ReloadAssembly (1580ms)
 		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (353ms)
-			LoadAssemblies (43ms)
+		EndReloadAssembly (359ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (125ms)
+			SetupTypeCache (127ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (148ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (144ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (44ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (63ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001914 seconds.
+Registered in 0.002116 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 43.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 42.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.912 seconds
+- Completed reload, in  0.900 seconds
 Domain Reload Profiling:
-	ReloadAssembly (913ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (900ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (742ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (732ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (242ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (287ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (288ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (165ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2096 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.6 MB.
-System memory in use after: 95.7 MB.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.3 MB.
+System memory in use after: 93.4 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2535.
-Total: 2.965800 ms (FindLiveObjects: 0.208500 ms CreateObjectMapping: 0.046600 ms MarkObjects: 2.630600 ms  DeleteObjects: 0.079200 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2538.
+Total: 2.682000 ms (FindLiveObjects: 0.147700 ms CreateObjectMapping: 0.058300 ms MarkObjects: 2.427700 ms  DeleteObjects: 0.047900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,113 +134,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/KnghtSoul/Assets/個人素材/logo.png
-  artifactKey: Guid(78f27556fce5a7143b25adc00e7640b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KnghtSoul/Assets/個人素材/logo.png using Guid(78f27556fce5a7143b25adc00e7640b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad30a34ffaff4c32132f146b2ea07af') in 0.124561 seconds 
-  Import took 0.127885 seconds .
+  path: Assets/KnghtSoul/Assets/Cainos
+  artifactKey: Guid(d8608e702936186449964ca7e4624739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnghtSoul/Assets/Cainos using Guid(d8608e702936186449964ca7e4624739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb16c4c163c963d3e54f46e7f7642eb') in 0.007451 seconds 
+  Import took 0.010158 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/KnghtSoul/Assets/個人素材/試排_01.jpg
-  artifactKey: Guid(2c301fb39d95de74aa7b5c80b4f74fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KnghtSoul/Assets/個人素材/試排_01.jpg using Guid(2c301fb39d95de74aa7b5c80b4f74fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75399ec8d376a32b1215debaaed2d8d0') in 0.017410 seconds 
-  Import took 0.020550 seconds .
+  Time since last request: 0.000225 seconds.
+  path: Assets/KnghtSoul/Assets
+  artifactKey: Guid(8e89e39fbb1616840956977431654e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnghtSoul/Assets using Guid(8e89e39fbb1616840956977431654e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b26d2e9a1a676cfd7c35f39e02e831') in 0.005153 seconds 
+  Import took 0.007581 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/KnghtSoul/Assets/個人素材/試排_02.jpg
-  artifactKey: Guid(9d71a8e4341c5174aafba902dd689961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KnghtSoul/Assets/個人素材/試排_02.jpg using Guid(9d71a8e4341c5174aafba902dd689961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fb38ccb490b6fe72e970514d4d12bb') in 0.014194 seconds 
-  Import took 0.016966 seconds .
+  Time since last request: 0.000149 seconds.
+  path: Assets/KnghtSoul
+  artifactKey: Guid(2e7658cbfd02aa84c949351b4aa03a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnghtSoul using Guid(2e7658cbfd02aa84c949351b4aa03a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c0ddb48b3050dab0e4aa7bed3ca8a6') in 0.005357 seconds 
+  Import took 0.008285 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/KnghtSoul/Assets/個人素材/試排.jpg
-  artifactKey: Guid(c0c5577bfdcaa72469426d635aed0a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KnghtSoul/Assets/個人素材/試排.jpg using Guid(c0c5577bfdcaa72469426d635aed0a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf9819b923dfd9aec505802bd4cf23b') in 0.013999 seconds 
-  Import took 0.016698 seconds .
+  Time since last request: 2.026845 seconds.
+  path: Assets/KnghtSoul/Assets/場景/場景一.unity
+  artifactKey: Guid(7e7b84dab386ff747bdb54032b431c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnghtSoul/Assets/場景/場景一.unity using Guid(7e7b84dab386ff747bdb54032b431c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e12bee86d946f92e03bba4ed7c09c19') in 0.216514 seconds 
+  Import took 0.219101 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/KnghtSoul/Assets/個人素材/1.png
-  artifactKey: Guid(2895cf466b249db44956f16c27a17761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KnghtSoul/Assets/個人素材/1.png using Guid(2895cf466b249db44956f16c27a17761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8274f2d7a255114767c2020603910ae7') in 0.023791 seconds 
-  Import took 0.026983 seconds .
+  Time since last request: 2.940072 seconds.
+  path: Assets/KnghtSoul/Assets/Scripts/Flyingeye.cs
+  artifactKey: Guid(0016699fc569f1f40b56d65c08a1a4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnghtSoul/Assets/Scripts/Flyingeye.cs using Guid(0016699fc569f1f40b56d65c08a1a4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494618e19d19f64da35629f62ebf8f2e') in 0.014513 seconds 
+  Import took 0.017309 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.587552 seconds.
-  path: Assets/KnghtSoul/Assets/場景/開始.unity
-  artifactKey: Guid(2c90ebc6ba31c6247b9ba276b708f154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KnghtSoul/Assets/場景/開始.unity using Guid(2c90ebc6ba31c6247b9ba276b708f154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d698194fee59879d61b5998ce9e169') in 0.006358 seconds 
-  Import took 0.009504 seconds .
+  Time since last request: 0.281687 seconds.
+  path: Assets/KnghtSoul/Assets/Scripts/Gameset.cs
+  artifactKey: Guid(dd1ced91d658c7149b8f0d209ac1cc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnghtSoul/Assets/Scripts/Gameset.cs using Guid(dd1ced91d658c7149b8f0d209ac1cc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e300ea7ec04d432d44365a51f0374a') in 0.004812 seconds 
+  Import took 0.007629 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004387 seconds.
-  path: Assets/KnghtSoul/Assets/場景/開始.unity
-  artifactKey: Guid(2c90ebc6ba31c6247b9ba276b708f154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KnghtSoul/Assets/場景/開始.unity using Guid(2c90ebc6ba31c6247b9ba276b708f154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d698194fee59879d61b5998ce9e169') in 0.002216 seconds 
-  Import took 0.005273 seconds .
+  Time since last request: 0.316832 seconds.
+  path: Assets/KnghtSoul/Assets/Scripts/Goblin.cs
+  artifactKey: Guid(6d5862104c6a4aa4e80d7ca690908b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnghtSoul/Assets/Scripts/Goblin.cs using Guid(6d5862104c6a4aa4e80d7ca690908b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41fb7a69b751343d651b81b2913b2e8') in 0.005442 seconds 
+  Import took 0.008518 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002319 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.808 seconds
-Domain Reload Profiling:
-	ReloadAssembly (808ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (657ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (232ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (236ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (159ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.0 MB.
-System memory in use after: 98.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2548.
-Total: 3.085100 ms (FindLiveObjects: 0.230500 ms CreateObjectMapping: 0.048000 ms MarkObjects: 2.785700 ms  DeleteObjects: 0.019600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
